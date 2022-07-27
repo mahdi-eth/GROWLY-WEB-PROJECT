@@ -1,0 +1,50 @@
+@import url(./RESET.CSS);
+@import url(./UTILIES.CSS);
+
+body {
+  background: rgba(242, 246, 252, 1);
+}
+
+.main-container {
+  padding: 0rem 1.6rem;
+}
+
+.tittle {
+  color: rgba(37, 57, 111, 1);
+}
+
+.btn-stop {
+  background: rgba(26, 176, 176, 1);
+}
+
+.btn-1 .right-side {
+  margin-right: -2rem;
+  width: max-content;
+}
+
+.btn-2 {
+  background: #d1efef;
+  color: rgba(26, 176, 176, 1);
+  left: calc(50% - 3.6rem);
+}
+
+.history .tittle {
+  background: rgba(26, 176, 176, 1);
+}
+
+.history .col-1,
+.history .col-2,
+.history .col-3 {
+  min-width: max-content;
+}
+
+.main-row-1::after,
+.main-row-2::after {
+  content: " ";
+  width: calc(100% + 2rem);
+  margin-left: -1rem;
+  margin-top: 1.6rem;
+  height: 0.05rem;
+  opacity: 5%;
+  background: black;
+}

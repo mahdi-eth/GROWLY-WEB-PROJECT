@@ -1,0 +1,10 @@
+@import url(./RESET.CSS);
+@import url(./UTILIES.CSS);
+
+body {
+    background: #3EB09B;
+}
+
+.main-container {
+    padding: 0rem 1.6rem;
+  }

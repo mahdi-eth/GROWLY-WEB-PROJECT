@@ -1,0 +1,69 @@
+@import url(./RESET.CSS);
+@import url(./UTILIES.CSS);
+
+body {
+  background: rgba(242, 246, 252, 1);
+}
+
+.main-container {
+  padding: 0rem 1.6rem;
+}
+
+.tittle {
+  color: rgba(37, 57, 111, 1);
+}
+
+.row-2 .form-control {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.row-2 img {
+  right: -1.15rem;
+  top: 0rem;
+}
+
+.line {
+  height: 0.1rem;
+  opacity: 5%;
+}
+
+.Symptoms .form-control {
+  border-color: rgba(57, 138, 165, 0.5);
+}
+
+.Medications .form-control {
+  border-color: rgba(225, 138, 182, 0.5);
+}
+
+.Mood .form-control {
+  border-color: rgba(69, 164, 167, 0.5);
+}
+
+.Medications .row-1 {
+  color: rgba(225, 138, 182, 1);
+}
+
+.Mood .row-1 {
+  color: rgba(69, 164, 167, 1);
+}
+
+.Symptoms .row-1 {
+  color: rgba(57, 138, 165, 1);
+}
+
+.Cycle-length .form-control {
+  border-color: rgba(26, 176, 176, 1);
+}
+
+.Sleep .form-control {
+  border-color: rgba(26, 176, 176, 1);
+}
+
+.Temprature .form-control {
+  border-color: rgba(122, 11, 68, 1);
+}
+
+.Weight .form-control {
+  border-color: rgba(123, 151, 165, 1);
+}

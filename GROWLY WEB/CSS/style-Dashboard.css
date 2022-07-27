@@ -1,0 +1,78 @@
+@import url(./RESET.CSS);
+@import url(./UTILIES.CSS);
+
+body {
+  background: rgba(242, 246, 252, 1);
+  color: rgba(70, 70, 70, 1);
+}
+
+.main-container {
+  padding: 0 1.6rem;
+}
+
+.good-morning .text {
+  color: rgba(37, 57, 111, 1);
+}
+
+.your-baby-box .tittle {
+  background: #3eb09b;
+}
+
+/* .structure-1 span , .structure-2 span {
+  transform: translate(-220% , 50%);
+} */
+
+.structure-1-shape , .structure-2-shape{
+  background: url(../IMG/structure-1.svg);
+  width: 3rem;
+  height: 3rem;
+}
+
+.how-you .row-1 {
+  color: #00866a;
+}
+
+.how-you .col-1,
+.how-you .col-2 {
+  width: max-content;
+  background: #89d2c4;
+}
+
+.how-you .how-row-1 .title,
+.how-you .how-row-2 .title {
+  color: #00866a;
+}
+
+.how-you .how-row-1 .det,
+.how-you .how-row-2 .det {
+  color: #282828;
+}
+
+.tools .row-1 {
+  background: rgba(238, 96, 147, 1);
+}
+
+.tools .row-2 {
+  background: rgba(26, 176, 176, 1);
+}
+
+.tools .col-1 {
+  padding: 2.9rem 2.7rem;
+  width: max-content;
+}
+
+.tools .row-2 .col-1 {
+  padding: 2.9rem 3.6rem;
+}
+
+.play {
+  transform: translate(544%, 224%);
+}
+
+.card .vid {
+  filter: brightness(50%);
+}
+
+.see-more-btn {
+  background: #00866a;
+}

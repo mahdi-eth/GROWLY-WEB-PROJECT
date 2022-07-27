@@ -1,0 +1,18 @@
+@import url(../CSS/RESET.CSS);
+@import url(../CSS/UTILIES.CSS);
+
+.welcome {
+  color: rgb(62, 176, 155);
+}
+
+::-webkit-input-placeholder {
+  color: rgba(62, 176, 155, 1);
+  opacity: 50%;
+  font-size: 1.6rem;
+}
+
+
+form input[type^="submit"] {
+  background: #00866a;
+  width: 60%;
+}

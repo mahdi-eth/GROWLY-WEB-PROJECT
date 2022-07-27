@@ -1,0 +1,6 @@
+@media screen and (min-width: 360px) {
+  .main-container {
+    width: 100vw;
+    margin: 0 auto;
+  }
+}

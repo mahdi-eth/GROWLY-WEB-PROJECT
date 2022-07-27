@@ -1,0 +1,16 @@
+@import url(./RESET.CSS);
+@import url(./UTILIES.CSS);
+@import url(./responsive/Get-started-re.css);
+
+body {
+  color: rgba(37, 57, 111, 1);
+}
+
+.Child-img {
+  margin: 7.2rem auto 1.6rem;
+}
+
+button {
+  padding: 1.2rem 12rem;
+  background: #89d2c4;
+}

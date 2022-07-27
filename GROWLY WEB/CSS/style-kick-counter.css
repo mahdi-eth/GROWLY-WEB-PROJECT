@@ -1,0 +1,39 @@
+@import url(./RESET.CSS);
+@import url(./UTILIES.CSS);
+
+body {
+  background: rgba(242, 246, 252, 1);
+}
+
+.main-container {
+  padding: 0 1.6rem;
+}
+
+.tittle {
+  color: rgba(37, 57, 111, 1);
+}
+
+.record-kicks .row-7 .btn {
+  background: rgba(238, 96, 147, 1);
+}
+
+.history .tittle {
+  background: rgba(238, 96, 147, 1);
+}
+
+.history .col-1,
+.history .col-2,
+.history .col-3 {
+  min-width: max-content;
+}
+
+.main-row-1::after,
+.main-row-2::after {
+  content: " ";
+  width: calc(100% + 2rem);
+  margin-left: -1rem;
+  margin-top: 1.6rem;
+  height: 0.05rem;
+  opacity: 5%;
+  background: black;
+}
